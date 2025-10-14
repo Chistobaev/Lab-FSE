@@ -5,6 +5,8 @@ if a<=0 or a>1000 or b<=0 or b>1000:
 
 else :
     result = "Числа равны" if a == b else "Числа не равны"
+    print ("result")
     result = [a, b][a <= b]
     print("Наибольшее число:", result)
+
 
